@@ -1,3 +1,9 @@
 <resources>
     <string name="app_name">GithubUser2</string>
+    <string name="repository">%s Repository</string>
+    <string name="followers">%s Pengikut</string>
+    <string name="following">%s Mengikuti</string>
+    <string name="company">Company</string>
+    <string name="location">Location</string>
+
 </resources>
