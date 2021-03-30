@@ -1,9 +1,6 @@
 package com.faridrama123.githubuser2
 
-import com.faridrama123.githubuser2.response.DetailResponse
-import com.faridrama123.githubuser2.response.FollowersResponse
-import com.faridrama123.githubuser2.response.FollowingResponse
-import com.faridrama123.githubuser2.response.SearchResponse
+import com.faridrama123.githubuser2.response.*
 import retrofit2.Call
 import retrofit2.http.GET
 import retrofit2.http.Path
@@ -24,12 +21,12 @@ interface ApiService {
     @GET("users/{username}/followers")
     fun listFollower(
         @Path("username") username: String
-    ): Call<FollowersResponse>
+    ): Call<List<FollowersResponse>>
 
     @GET("users/{username}/following")
     fun listFollowing(
         @Path("username") username: String
-    ): Call <FollowingResponse>
+    ): Call <List<FollowingResponse>>
 
 
 }

@@ -5,5 +5,7 @@
     <string name="following">%s Mengikuti</string>
     <string name="company">Company</string>
     <string name="location">Location</string>
+    <string name="tab_text_1">Followers</string>
+    <string name="tab_text_2">Following</string>
 
 </resources>
