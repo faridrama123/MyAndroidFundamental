@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">GithubUser3</string>
+
+
+    <string name="repository">%s Repository</string>
+    <string name="followers">%s Pengikut</string>
+    <string name="following">%s Mengikuti</string>
+    <string name="company">Company</string>
+    <string name="location">Location</string>
+    <string name="tab_text_1">Followers</string>
+    <string name="tab_text_2">Following</string>
+
+    <string name="alarm_message">Pesan Alarm</string>
+    <string name="repeating_alarm">Repeating Alarm</string>
+    <string name="set_repeating_alarm">Set Repeating Alarm</string>
+    <string name="cancel_alarm">Batalkan Alarm</string>
+    <string name="alarm_time">Waktu Alarm</string>
+</resources>

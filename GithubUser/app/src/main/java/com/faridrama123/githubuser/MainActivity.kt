@@ -8,6 +8,7 @@ import com.faridrama123.githubuser.databinding.ActivityMainBinding
 
 class MainActivity : AppCompatActivity() {
 
+
     private lateinit var datausername: Array<String>
     private lateinit var dataname: Array<String>
     private lateinit var dataavatar: TypedArray
